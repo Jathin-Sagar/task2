@@ -1,0 +1,19 @@
+first we need to create image to postgres and run the postgres
+the we need to create target to springapplication 
+after that we need to run
+mvn clean install -DskipTests
+after that we need to go into the target and run 
+java -jar sprin thing
+if we runs 
+then we need to create the image and run the image
+now we need to go into the postgres container
+docker exec -it postgrescontainerid /bin/bash
+now we need to go into the db using
+psql -U username -d databasename given in postgres dockerfile
+the check the table if there is no table create the table and give the data init and run it in local host
+for inserting data 	
+to see the tables \dt
+after that seeing the data in the table press select * from employee(tablename);
+INSERT INTO employee (employee_id, city, employee_name, postal_code) VALUES ('147', 'srirangapur', 'Jathin', '509120');
+refresh the localhost if u get the data the it is correct
+

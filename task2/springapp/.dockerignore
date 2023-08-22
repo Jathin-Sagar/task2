@@ -1,0 +1,9 @@
+
+# Exclude generated files
+/generated-sources/
+/generated-test-sources/
+/maven-status/
+# Exclude original JAR file (if not needed)
+/spring-0.0.1-SNAPSHOT.jar.original
+# Exclude test classes (if not needed)
+/test-classes/
