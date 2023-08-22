@@ -17,3 +17,5 @@ after that seeing the data in the table press select * from employee(tablename);
 INSERT INTO employee (employee_id, city, employee_name, postal_code) VALUES ('147', 'srirangapur', 'Jathin', '509120');
 refresh the localhost if u get the data the it is correct
 
+token 
+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
